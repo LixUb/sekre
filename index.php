@@ -22,10 +22,9 @@
     <script>
         const input = document.getElementById("barcode-input");
 
-        // Fokus otomatis
         window.onload = () => input.focus();
 
-        // Submit form saat enter ditekan
+      
         input.addEventListener("keypress", function (e) {
             if (e.key === "Enter") {
                 e.preventDefault();
